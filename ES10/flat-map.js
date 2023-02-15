@@ -1,6 +1,6 @@
 let array = [1,2,3,[4,5,6,[7,8,9]],10];
 
-let aplanado = array.flat(3);//le pasamos la profundidad
+let aplanado = array.flat(1);//le pasamos la profundidad
 
 console.log(array);
 console.log(aplanado);
